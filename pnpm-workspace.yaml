@@ -1,5 +1,9 @@
 packages:
-  - 'packages/*'
+  - packages/*
+
+ignoredBuiltDependencies:
+  - nx
+
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
